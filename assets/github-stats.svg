@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195">
+  <rect width="495" height="195" rx="10" fill="#0d1117"/>
+
+  <text x="25" y="40"
+        fill="#58a6ff"
+        font-family="Arial, sans-serif"
+        font-size="22"
+        font-weight="bold">
+    Rebbie Afuyaso's GitHub Stats
+  </text>
+
+  <text x="25" y="82"
+        fill="#c9d1d9"
+        font-family="Arial, sans-serif"
+        font-size="17">
+    📦 Public Repositories
+  </text>
+
+  <text x="430" y="82"
+        fill="#58a6ff"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        text-anchor="end"
+        font-weight="bold">
+    3
+  </text>
+
+  <text x="25" y="115"
+        fill="#c9d1d9"
+        font-family="Arial, sans-serif"
+        font-size="17">
+    👥 Followers
+  </text>
+
+  <text x="430" y="115"
+        fill="#58a6ff"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        text-anchor="end"
+        font-weight="bold">
+    0
+  </text>
+
+  <text x="25" y="148"
+        fill="#c9d1d9"
+        font-family="Arial, sans-serif"
+        font-size="17">
+    ➡️ Following
+  </text>
+
+  <text x="430" y="148"
+        fill="#58a6ff"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        text-anchor="end"
+        font-weight="bold">
+    0
+  </text>
+
+  <text x="25" y="178"
+        fill="#8b949e"
+        font-family="Arial, sans-serif"
+        font-size="12">
+    github.com/rebbieafuyaso-coder
+  </text>
+</svg>
