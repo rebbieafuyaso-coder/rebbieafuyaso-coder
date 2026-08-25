@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
     width="760"
-    height="360"
-    viewBox="0 0 760 360">
+    height="430"
+    viewBox="0 0 760 430">
 
     <defs>
 
@@ -122,7 +122,7 @@
       y="50"
       class="title">
 
-      GitHub Overview
+      Top Languages
 
     </text>
 
@@ -131,137 +131,210 @@
       y="75"
       class="subtitle">
 
-      @rebbieafuyaso-coder · Developer activity
+      Languages used across public repositories
 
     </text>
 
     <g class="animate">
+
+      <text
+        x="35"
+        y="120"
+        class="label">
+
+        JavaScript
+
+      </text>
+
+      <text
+        x="725"
+        y="120"
+        class="label"
+        text-anchor="end">
+
+        84.9%
+
+      </text>
 
       <rect
         x="35"
-        y="120"
-        width="200"
-        height="145"
-        rx="14"
-        fill="#161b22"
-        stroke="#30363d"/>
+        y="132"
+        width="480"
+        height="9"
+        rx="4"
+        fill="#21262d"/>
 
-      <text
-        x="57"
-        y="155"
-        font-size="22">
+      <rect
+        x="35"
+        y="132"
+        width="407.7146800381535"
+        height="9"
+        rx="4"
+        fill="url(#accent)">
 
-        📦
+        <animate
+          attributeName="width"
+          from="0"
+          to="407.7146800381535"
+          dur="1.2s"
+          fill="freeze"/>
 
-      </text>
-
-      <text
-        x="57"
-        y="195"
-        class="label">
-
-        Repositories
-
-      </text>
-
-      <text
-        x="57"
-        y="235"
-        class="number">
-
-        3
-
-      </text>
+      </rect>
 
     </g>
     
     <g class="animate">
 
-      <rect
-        x="270"
-        y="120"
-        width="200"
-        height="145"
-        rx="14"
-        fill="#161b22"
-        stroke="#30363d"/>
-
       <text
-        x="292"
-        y="155"
-        font-size="22">
-
-        👥
-
-      </text>
-
-      <text
-        x="292"
-        y="195"
+        x="35"
+        y="162"
         class="label">
 
-        Followers
+        CSS
 
       </text>
 
       <text
-        x="292"
-        y="235"
-        class="number">
+        x="725"
+        y="162"
+        class="label"
+        text-anchor="end">
 
-        0
+        8.5%
 
       </text>
+
+      <rect
+        x="35"
+        y="174"
+        width="480"
+        height="9"
+        rx="4"
+        fill="#21262d"/>
+
+      <rect
+        x="35"
+        y="174"
+        width="40.94488524642576"
+        height="9"
+        rx="4"
+        fill="url(#accent)">
+
+        <animate
+          attributeName="width"
+          from="0"
+          to="40.94488524642576"
+          dur="1.2s"
+          fill="freeze"/>
+
+      </rect>
 
     </g>
     
     <g class="animate">
 
-      <rect
-        x="505"
-        y="120"
-        width="200"
-        height="145"
-        rx="14"
-        fill="#161b22"
-        stroke="#30363d"/>
-
       <text
-        x="527"
-        y="155"
-        font-size="22">
-
-        ↗
-
-      </text>
-
-      <text
-        x="527"
-        y="195"
+        x="35"
+        y="204"
         class="label">
 
-        Following
+        Astro
 
       </text>
 
       <text
-        x="527"
-        y="235"
-        class="number">
+        x="725"
+        y="204"
+        class="label"
+        text-anchor="end">
 
-        0
+        6.2%
 
       </text>
+
+      <rect
+        x="35"
+        y="216"
+        width="480"
+        height="9"
+        rx="4"
+        fill="#21262d"/>
+
+      <rect
+        x="35"
+        y="216"
+        width="29.997602084587797"
+        height="9"
+        rx="4"
+        fill="url(#accent)">
+
+        <animate
+          attributeName="width"
+          from="0"
+          to="29.997602084587797"
+          dur="1.2s"
+          fill="freeze"/>
+
+      </rect>
 
     </g>
     
-    <text
-      x="35"
-      y="320"
-      class="subtitle">
+    <g class="animate">
 
-      github.com/rebbieafuyaso-coder
+      <text
+        x="35"
+        y="246"
+        class="label">
 
-    </text>
+        HTML
 
-    </svg>
+      </text>
+
+      <text
+        x="725"
+        y="246"
+        class="label"
+        text-anchor="end">
+
+        0.3%
+
+      </text>
+
+      <rect
+        x="35"
+        y="258"
+        width="480"
+        height="9"
+        rx="4"
+        fill="#21262d"/>
+
+      <rect
+        x="35"
+        y="258"
+        width="8"
+        height="9"
+        rx="4"
+        fill="url(#accent)">
+
+        <animate
+          attributeName="width"
+          from="0"
+          to="8"
+          dur="1.2s"
+          fill="freeze"/>
+
+      </rect>
+
+    </g>
+    
+
+  <text
+    x="35"
+    y="395"
+    class="subtitle">
+
+    Based on language usage across public repositories
+
+  </text>
+
+  </svg>
