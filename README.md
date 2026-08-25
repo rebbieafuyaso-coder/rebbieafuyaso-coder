@@ -69,29 +69,22 @@ UI Design · Graphic Design · Visual Design · Product Thinking
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Analytics
 
 <p align="center">
   <img
     src="./assets/github-stats.svg"
-    height="180"
-    alt="Rebbie's GitHub Stats"
+    alt="GitHub Statistics"
   />
 </p>
+
+<br>
 
 <p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=rebbieafuyaso-coder&theme=tokyonight&hide_border=true"
-    alt="Rebbie's GitHub Streak"
+    src="./assets/top-languages.svg"
+    alt="Top Programming Languages"
   />
-</p>
-
----
-
-## 🐍 Contribution Activity
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/rebbieafuyaso-coder/rebbieafuyaso-coder/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake Animation" />
 </p>
 
 ---
