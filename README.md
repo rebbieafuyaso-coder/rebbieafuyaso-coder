@@ -73,17 +73,10 @@ UI Design · Graphic Design · Visual Design · Product Thinking
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=rebbieafuyaso-coder&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&theme=tokyonight"
+    src="./assets/github-stats.svg"
     height="180"
     alt="Rebbie's GitHub Stats"
   />
-
-<img
- src="https://github-readme-stats.vercel.app/api/top-langs/?username=rebbieafuyaso-coder&layout=compact&hide_border=true&langs_count=8&theme=tokyonight"
- height="180"
- alt="Rebbie's Top Languages"
-/>
-
 </p>
 
 <p align="center">
