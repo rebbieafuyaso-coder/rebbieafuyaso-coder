@@ -1,0 +1,131 @@
+name: Generate GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get GitHub statistics
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: rebbieafuyaso-coder
+        run: |
+          echo "Getting GitHub statistics for $USERNAME..."
+
+          curl \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/users/$USERNAME \
+            > user.json
+
+          echo "GitHub API response:"
+          cat user.json
+
+      - name: Generate stats card
+        run: |
+          mkdir -p assets
+
+          python3 <<'PY'
+          import json
+
+          with open("user.json") as f:
+              user = json.load(f)
+
+          name = user.get("name") or user.get("login")
+          repos = user.get("public_repos", 0)
+          followers = user.get("followers", 0)
+          following = user.get("following", 0)
+
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195">
+            <rect width="495" height="195" rx="10" fill="#0d1117"/>
+
+            <text x="25" y="40"
+                  fill="#58a6ff"
+                  font-family="Arial, sans-serif"
+                  font-size="22"
+                  font-weight="bold">
+              {name}'s GitHub Stats
+            </text>
+
+            <text x="25" y="82"
+                  fill="#c9d1d9"
+                  font-family="Arial, sans-serif"
+                  font-size="17">
+              📦 Public Repositories
+            </text>
+
+            <text x="430" y="82"
+                  fill="#58a6ff"
+                  font-family="Arial, sans-serif"
+                  font-size="18"
+                  text-anchor="end"
+                  font-weight="bold">
+              {repos}
+            </text>
+
+            <text x="25" y="115"
+                  fill="#c9d1d9"
+                  font-family="Arial, sans-serif"
+                  font-size="17">
+              👥 Followers
+            </text>
+
+            <text x="430" y="115"
+                  fill="#58a6ff"
+                  font-family="Arial, sans-serif"
+                  font-size="18"
+                  text-anchor="end"
+                  font-weight="bold">
+              {followers}
+            </text>
+
+            <text x="25" y="148"
+                  fill="#c9d1d9"
+                  font-family="Arial, sans-serif"
+                  font-size="17">
+              ➡️ Following
+            </text>
+
+            <text x="430" y="148"
+                  fill="#58a6ff"
+                  font-family="Arial, sans-serif"
+                  font-size="18"
+                  text-anchor="end"
+                  font-weight="bold">
+              {following}
+            </text>
+
+            <text x="25" y="178"
+                  fill="#8b949e"
+                  font-family="Arial, sans-serif"
+                  font-size="12">
+              github.com/rebbieafuyaso-coder
+            </text>
+          </svg>'''
+
+          with open("assets/github-stats.svg", "w") as f:
+              f.write(svg)
+          PY
+
+      - name: Commit generated stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/github-stats.svg
+
+          git diff --cached --quiet || git commit -m "Update GitHub stats"
+
+          git push
