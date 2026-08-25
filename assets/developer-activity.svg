@@ -1,8 +1,8 @@
 <svg
     xmlns="http://www.w3.org/2000/svg"
     width="900"
-    height="405"
-    viewBox="0 0 900 405">
+    height="470"
+    viewBox="0 0 900 470">
 
     <defs>
 
@@ -151,7 +151,7 @@
       y="52"
       class="title">
 
-      GitHub Overview
+      Developer Activity
 
     </text>
 
@@ -160,7 +160,7 @@
       y="78"
       class="subtitle">
 
-      @rebbieafuyaso-coder · public + authorized private activity
+      Contribution activity over the last 12 months
 
     </text>
 
@@ -173,25 +173,25 @@
         x="36"
         y="115"
         width="250"
-        height="120"
+        height="125"
         rx="15"
         class="card"/>
 
       <text
         x="58"
-        y="154"
+        y="155"
         class="label">
 
-        Repositories
+        Commits
 
       </text>
 
       <text
         x="58"
-        y="197"
+        y="201"
         class="value">
 
-        4
+        0
 
       </text>
 
@@ -207,25 +207,25 @@
         x="325"
         y="115"
         width="250"
-        height="120"
+        height="125"
         rx="15"
         class="card"/>
 
       <text
         x="347"
-        y="154"
+        y="155"
         class="label">
 
-        Stars
+        Pull Requests
 
       </text>
 
       <text
         x="347"
-        y="197"
+        y="201"
         class="value">
 
-        4
+        0
 
       </text>
 
@@ -241,22 +241,22 @@
         x="614"
         y="115"
         width="250"
-        height="120"
+        height="125"
         rx="15"
         class="card"/>
 
       <text
         x="636"
-        y="154"
+        y="155"
         class="label">
 
-        Forks
+        Issues
 
       </text>
 
       <text
         x="636"
-        y="197"
+        y="201"
         class="value">
 
         0
@@ -275,22 +275,22 @@
         x="36"
         y="270"
         width="250"
-        height="120"
+        height="125"
         rx="15"
         class="card"/>
 
       <text
         x="58"
-        y="309"
+        y="310"
         class="label">
 
-        Followers
+        Code Reviews
 
       </text>
 
       <text
         x="58"
-        y="352"
+        y="356"
         class="value">
 
         0
@@ -309,25 +309,25 @@
         x="325"
         y="270"
         width="250"
-        height="120"
+        height="125"
         rx="15"
         class="card"/>
 
       <text
         x="347"
-        y="309"
+        y="310"
         class="label">
 
-        Following
+        Contributed Repositories
 
       </text>
 
       <text
         x="347"
-        y="352"
+        y="356"
         class="value">
 
-        0
+        2
 
       </text>
 
@@ -343,25 +343,25 @@
         x="614"
         y="270"
         width="250"
-        height="120"
+        height="125"
         rx="15"
         class="card"/>
 
       <text
         x="636"
-        y="309"
+        y="310"
         class="label">
 
-        Open Issues
+        Total Contributions
 
       </text>
 
       <text
         x="636"
-        y="352"
+        y="356"
         class="value">
 
-        0
+        3
 
       </text>
 
@@ -371,10 +371,10 @@
 
 <text
   x="36"
-  y="385"
+  y="445"
   class="subtitle">
 
-  Automatically generated · updated daily
+  Includes authenticated contribution data where GitHub makes it available.
 
 </text>
 
