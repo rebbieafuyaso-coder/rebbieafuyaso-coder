@@ -1,5 +1,5 @@
 // src/app/professional-portfolio/page.js
-import ProfessionalPortfolioContent from "./ProfessionalPortfolioContent";
+import PortfolioContent from "./PortfolioContent";
 
 export const metadata = {
   title: "Professional Portfolio", // → "Professional Portfolio | Rebbie Afuyaso"
@@ -24,6 +24,6 @@ export const metadata = {
   },
 };
 
-export default function ProfessionalPortfolioPage() {
-  return <ProfessionalPortfolioContent />;
+export default function PortfolioPage() {
+  return <PortfolioContent />;
 }
