@@ -1,4 +1,4 @@
-# 👋 Hey, I'm Rebbie Afuyaso
+# 👋 Hey, I'm Rebbie Afuyaso (Mr Technology)
 
 <p align="center">
   <img
@@ -29,18 +29,6 @@
 I'm **Rebbie Afuyaso**, a **Full-Stack Developer, Software Developer, UI Designer, and Graphic Designer** with around **4–5 years of experience** building digital products, applications, APIs, interfaces, and creative experiences.
 
 I enjoy working across the entire development process — from an initial idea and interface design to backend architecture, databases, APIs, deployment, and everything in between.
-
-I believe great software sits at the intersection of:
-
-```text
-🎨 Good Design
-      +
-⚙️ Good Engineering
-      +
-🧠 Good Problem Solving
-      =
-🚀 Great Products
-```
 
 ### What I do
 
