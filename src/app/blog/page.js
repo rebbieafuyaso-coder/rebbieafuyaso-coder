@@ -1,5 +1,5 @@
 // src/app/blogs-social/page.js
-import BlogsSocialContent from "./BlogsSocialContent";
+import BlogContent from "./BlogContent";
 
 export const metadata = {
   title: "Blogs & Social",
@@ -25,5 +25,5 @@ export const metadata = {
 };
 
 export default function BlogsContentPage() {
-  return <BlogsSocialContent />;
+  return <BlogContent />;
 }
