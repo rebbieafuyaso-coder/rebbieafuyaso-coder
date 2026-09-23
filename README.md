@@ -70,17 +70,6 @@ I enjoy working across the entire development process — from an initial idea a
   <img src="https://skillicons.dev/icons?i=git,github,cloudflare" alt="Tools and Platforms" />
 </p>
 
-### 🎨 Design
-
-```text
-UI Design
-Graphic Design
-Visual Design
-Responsive Design
-Product Thinking
-Design → Development
-```
-
 ---
 
 ## 🧠 How I Think About Development
@@ -167,90 +156,6 @@ I'm particularly interested in building:
 
 ---
 
-# 📌 Featured Projects
-
-Here are some projects and experiments I'm working on.
-
-> ⭐ Replace these with your actual repositories and strongest projects.
-
-### 🚀 Project One
-
-**A full-stack application built to solve a real-world problem.**
-
-`Laravel` · `PostgreSQL` · `JavaScript`
-
-🔗 **Repository:** `YOUR_PROJECT_URL`
-
----
-
-### ⚡ Project Two
-
-**A backend/API-driven application focused on performance, scalability and clean architecture.**
-
-`Node.js` · `JavaScript` · `PostgreSQL`
-
-🔗 **Repository:** `YOUR_PROJECT_URL`
-
----
-
-### 🎨 Project Three
-
-**A design-focused project combining interface design with frontend development.**
-
-`JavaScript` · `UI Design`
-
-🔗 **Repository:** `YOUR_PROJECT_URL`
-
----
-
-# 🧩 My Developer Journey
-
-```text
-        💡 Curiosity
-             │
-             ▼
-        📚 Learning
-             │
-             ▼
-        💻 Building
-             │
-             ▼
-       🐛 Breaking things
-             │
-             ▼
-        🔧 Fixing things
-             │
-             ▼
-       🧠 Understanding
-             │
-             ▼
-        🚀 Building better
-             │
-             └───────────────┐
-                             │
-                             ▼
-                        🔁 Repeat
-```
-
-After several years of development, one thing hasn't changed:
-
-> **I still enjoy building things and figuring out how they work.**
-
----
-
-# 🧠 Fun Facts
-
-```text
-🎨 Designer's brain
-        +
-💻 Developer's brain
-        +
-☕ "Just one more feature"
-        +
-🐛 "Why isn't this working?"
-        =
-🚀 Another project
-```
 
 * 🎨 I enjoy going from **design → interface → code**
 * 🧩 I like solving problems that don't have obvious solutions
@@ -315,7 +220,7 @@ The ability to solve problems doesn't.
     />
   </a>
 
-  <a href="mailto:YOUR_EMAIL">
+  <a href="mailto:rebbbieafuyaso.001@gmail.com">
     <img
       src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
       alt="Email"
