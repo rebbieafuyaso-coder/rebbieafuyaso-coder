@@ -1,3 +1,6 @@
+// src/app/projects/page.js
+import ProjectsContent from "./ProjectsContent";
+
 export const metadata = {
   title: "Projects", // → "Projects | Rebbie Afuyaso"
   description:
@@ -21,12 +24,6 @@ export const metadata = {
   },
 };
 
-const ProjectsPage = () => {
-  return (
-    <main>
-      <h1>Projects</h1>
-    </main>
-  );
-};
-
-export default ProjectsPage;
+export default function ProjectsPage() {
+  return <ProjectsContent />;
+}
