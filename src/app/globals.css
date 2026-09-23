@@ -1,4 +1,8 @@
 @import "tailwindcss";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/montserrat/400.css";
+@import "@fontsource/montserrat/700.css";
+@import "@fontsource/montserrat/900.css";
 
 :root {
   --background: #ffffff;
@@ -10,6 +14,11 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+}
+
+@theme {
+  --font-heading: "Inter", sans-serif;
+  --font-display: "Montserrat", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
