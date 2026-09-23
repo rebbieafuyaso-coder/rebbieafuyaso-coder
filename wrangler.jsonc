@@ -2,6 +2,14 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "rebbieafuyaso",
   "compatibility_date": "2026-09-21",
+
+  "main": ".open-next/worker.js",
+
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+
   "observability": {
     "enabled": true
   }
