@@ -184,7 +184,7 @@
         class="label"
         text-anchor="end">
 
-        75.9%
+        74.6%
 
       </text>
 
@@ -199,7 +199,7 @@
       <rect
         x="36"
         y="132"
-        width="455.6880247390628"
+        width="447.3004127649824"
         height="11"
         rx="5"
         fill="url(#accent)">
@@ -207,7 +207,7 @@
         <animate
           attributeName="width"
           from="0"
-          to="455.6880247390628"
+          to="447.3004127649824"
           dur="1.1s"
           begin="0.0s"
           fill="freeze"/>
@@ -237,7 +237,7 @@
         class="label"
         text-anchor="end">
 
-        17.7%
+        17.3%
 
       </text>
 
@@ -252,7 +252,7 @@
       <rect
         x="36"
         y="172"
-        width="105.91361478852109"
+        width="103.88059895988872"
         height="11"
         rx="5"
         fill="url(#accent)">
@@ -260,7 +260,7 @@
         <animate
           attributeName="width"
           from="0"
-          to="105.91361478852109"
+          to="103.88059895988872"
           dur="1.1s"
           begin="0.08s"
           fill="freeze"/>
@@ -305,7 +305,7 @@
       <rect
         x="36"
         y="212"
-        width="14.638164632573321"
+        width="14.681011181902194"
         height="11"
         rx="5"
         fill="url(#accent)">
@@ -313,7 +313,7 @@
         <animate
           attributeName="width"
           from="0"
-          to="14.638164632573321"
+          to="14.681011181902194"
           dur="1.1s"
           begin="0.16s"
           fill="freeze"/>
@@ -333,7 +333,7 @@
         y="240"
         class="label">
 
-        CSS
+        Astro
 
       </text>
 
@@ -343,7 +343,7 @@
         class="label"
         text-anchor="end">
 
-        2.1%
+        2.2%
 
       </text>
 
@@ -358,7 +358,7 @@
       <rect
         x="36"
         y="252"
-        width="12.842523198407418"
+        width="12.998350460383358"
         height="11"
         rx="5"
         fill="url(#accent)">
@@ -366,7 +366,7 @@
         <animate
           attributeName="width"
           from="0"
-          to="12.842523198407418"
+          to="12.998350460383358"
           dur="1.1s"
           begin="0.24s"
           fill="freeze"/>
@@ -386,7 +386,7 @@
         y="280"
         class="label">
 
-        Blade
+        CSS
 
       </text>
 
@@ -396,7 +396,7 @@
         class="label"
         text-anchor="end">
 
-        1.1%
+        2.1%
 
       </text>
 
@@ -411,7 +411,7 @@
       <rect
         x="36"
         y="292"
-        width="8"
+        width="12.689509731632175"
         height="11"
         rx="5"
         fill="url(#accent)">
@@ -419,7 +419,7 @@
         <animate
           attributeName="width"
           from="0"
-          to="8"
+          to="12.689509731632175"
           dur="1.1s"
           begin="0.32s"
           fill="freeze"/>
@@ -439,7 +439,7 @@
         y="320"
         class="label">
 
-        Astro
+        Blade
 
       </text>
 
@@ -449,7 +449,7 @@
         class="label"
         text-anchor="end">
 
-        0.6%
+        1.1%
 
       </text>
 
@@ -492,7 +492,7 @@
         y="360"
         class="label">
 
-        HTML
+        Roff
 
       </text>
 
@@ -502,7 +502,7 @@
         class="label"
         text-anchor="end">
 
-        0.1%
+        0.3%
 
       </text>
 
@@ -528,6 +528,59 @@
           to="8"
           dur="1.1s"
           begin="0.48s"
+          fill="freeze"/>
+
+      </rect>
+
+    </g>
+
+    
+
+    <g
+      class="fade"
+      style="animation-delay:0.56s">
+
+      <text
+        x="36"
+        y="400"
+        class="label">
+
+        HTML
+
+      </text>
+
+      <text
+        x="860"
+        y="400"
+        class="label"
+        text-anchor="end">
+
+        0.1%
+
+      </text>
+
+      <rect
+        x="36"
+        y="412"
+        width="600"
+        height="11"
+        rx="5"
+        fill="#21262d"/>
+
+      <rect
+        x="36"
+        y="412"
+        width="8"
+        height="11"
+        rx="5"
+        fill="url(#accent)">
+
+        <animate
+          attributeName="width"
+          from="0"
+          to="8"
+          dur="1.1s"
+          begin="0.56s"
           fill="freeze"/>
 
       </rect>
