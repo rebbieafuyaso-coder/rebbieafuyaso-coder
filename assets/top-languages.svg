@@ -184,7 +184,7 @@
         class="label"
         text-anchor="end">
 
-        74.6%
+        73.4%
 
       </text>
 
@@ -199,7 +199,7 @@
       <rect
         x="36"
         y="132"
-        width="447.3004127649824"
+        width="440.65446454359716"
         height="11"
         rx="5"
         fill="url(#accent)">
@@ -207,7 +207,7 @@
         <animate
           attributeName="width"
           from="0"
-          to="447.3004127649824"
+          to="440.65446454359716"
           dur="1.1s"
           begin="0.0s"
           fill="freeze"/>
@@ -237,7 +237,7 @@
         class="label"
         text-anchor="end">
 
-        17.3%
+        17.1%
 
       </text>
 
@@ -252,7 +252,7 @@
       <rect
         x="36"
         y="172"
-        width="103.88059895988872"
+        width="102.33074100619376"
         height="11"
         rx="5"
         fill="url(#accent)">
@@ -260,7 +260,7 @@
         <animate
           attributeName="width"
           from="0"
-          to="103.88059895988872"
+          to="102.33074100619376"
           dur="1.1s"
           begin="0.08s"
           fill="freeze"/>
@@ -280,7 +280,7 @@
         y="200"
         class="label">
 
-        TypeScript
+        Astro
 
       </text>
 
@@ -290,7 +290,7 @@
         class="label"
         text-anchor="end">
 
-        2.4%
+        3.3%
 
       </text>
 
@@ -305,7 +305,7 @@
       <rect
         x="36"
         y="212"
-        width="14.681011181902194"
+        width="19.795680405643928"
         height="11"
         rx="5"
         fill="url(#accent)">
@@ -313,7 +313,7 @@
         <animate
           attributeName="width"
           from="0"
-          to="14.681011181902194"
+          to="19.795680405643928"
           dur="1.1s"
           begin="0.16s"
           fill="freeze"/>
@@ -333,7 +333,7 @@
         y="240"
         class="label">
 
-        Astro
+        TypeScript
 
       </text>
 
@@ -343,7 +343,7 @@
         class="label"
         text-anchor="end">
 
-        2.2%
+        2.6%
 
       </text>
 
@@ -358,7 +358,7 @@
       <rect
         x="36"
         y="252"
-        width="12.998350460383358"
+        width="15.541232977824368"
         height="11"
         rx="5"
         fill="url(#accent)">
@@ -366,7 +366,7 @@
         <animate
           attributeName="width"
           from="0"
-          to="12.998350460383358"
+          to="15.541232977824368"
           dur="1.1s"
           begin="0.24s"
           fill="freeze"/>
@@ -411,7 +411,7 @@
       <rect
         x="36"
         y="292"
-        width="12.689509731632175"
+        width="12.500187203816818"
         height="11"
         rx="5"
         fill="url(#accent)">
@@ -419,7 +419,7 @@
         <animate
           attributeName="width"
           from="0"
-          to="12.689509731632175"
+          to="12.500187203816818"
           dur="1.1s"
           begin="0.32s"
           fill="freeze"/>
@@ -502,7 +502,7 @@
         class="label"
         text-anchor="end">
 
-        0.3%
+        0.4%
 
       </text>
 
