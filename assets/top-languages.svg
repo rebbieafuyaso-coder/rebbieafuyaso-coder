@@ -199,7 +199,7 @@
       <rect
         x="36"
         y="132"
-        width="440.65446454359716"
+        width="440.34440581020493"
         height="11"
         rx="5"
         fill="url(#accent)">
@@ -207,7 +207,7 @@
         <animate
           attributeName="width"
           from="0"
-          to="440.65446454359716"
+          to="440.34440581020493"
           dur="1.1s"
           begin="0.0s"
           fill="freeze"/>
@@ -237,7 +237,7 @@
         class="label"
         text-anchor="end">
 
-        17.1%
+        17.0%
 
       </text>
 
@@ -252,7 +252,7 @@
       <rect
         x="36"
         y="172"
-        width="102.33074100619376"
+        width="102.23357203201671"
         height="11"
         rx="5"
         fill="url(#accent)">
@@ -260,7 +260,7 @@
         <animate
           attributeName="width"
           from="0"
-          to="102.33074100619376"
+          to="102.23357203201671"
           dur="1.1s"
           begin="0.08s"
           fill="freeze"/>
@@ -305,7 +305,7 @@
       <rect
         x="36"
         y="212"
-        width="19.795680405643928"
+        width="19.81856335133593"
         height="11"
         rx="5"
         fill="url(#accent)">
@@ -313,7 +313,7 @@
         <animate
           attributeName="width"
           from="0"
-          to="19.795680405643928"
+          to="19.81856335133593"
           dur="1.1s"
           begin="0.16s"
           fill="freeze"/>
@@ -358,7 +358,7 @@
       <rect
         x="36"
         y="252"
-        width="15.541232977824368"
+        width="15.526475675658347"
         height="11"
         rx="5"
         fill="url(#accent)">
@@ -366,7 +366,7 @@
         <animate
           attributeName="width"
           from="0"
-          to="15.541232977824368"
+          to="15.526475675658347"
           dur="1.1s"
           begin="0.24s"
           fill="freeze"/>
@@ -411,7 +411,7 @@
       <rect
         x="36"
         y="292"
-        width="12.500187203816818"
+        width="12.488317551006013"
         height="11"
         rx="5"
         fill="url(#accent)">
@@ -419,7 +419,7 @@
         <animate
           attributeName="width"
           from="0"
-          to="12.500187203816818"
+          to="12.488317551006013"
           dur="1.1s"
           begin="0.32s"
           fill="freeze"/>
@@ -502,7 +502,7 @@
         class="label"
         text-anchor="end">
 
-        0.4%
+        0.5%
 
       </text>
 
